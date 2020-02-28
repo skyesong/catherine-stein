@@ -7,9 +7,12 @@ $color5: #1F2F16; Mallard
 */
 
 body {
-  background: #d7d6d6;
+  background-color: #d7d6d6;
   color: #395B50;
   font-size: 16px;
+  background-image: radial-gradient(ellipse at 120vw 110vh, #1F2F16, #395B50 150vh, rgba(0, 0, 0, 0) calc(150vh + 1px)), radial-gradient(ellipse at 50vw 120vh, #1F2F16,  #395B50 70vh, rgba(0, 0, 0, 0) calc(70vh + 1px)), radial-gradient(ellipse at 0vw 90vh, #1F2F16, #395B50 90vh, rgba(0, 0, 0, 0) calc(90vh + 1px));
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 a, a:visited, a:active {
   color: #840032;
@@ -24,6 +27,6 @@ a:hover, a:focus {
 .Home-band {
   margin: 0 -5vw;
   padding: 1rem 5vw;
-  background-color: #d1bce3;
+  background-color: rgb(209,188,227, .8);
   color: #1F2F16;
 }
